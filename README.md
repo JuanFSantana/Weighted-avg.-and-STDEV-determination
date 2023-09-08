@@ -19,11 +19,11 @@ The input fragments file should be a six-column, tab-delimited bed file containi
 
 This software serves as a computational tool designed to analyze and process fragment data within user-defined regions.
 
-**Fragment Analysis**: Inspects the 5', 3' termini or the centers of fragments.
-**Computational Operations**: Determination of the weighted mean location and standard deviation of these fragments.
-**Count Analysis**: Quantifies the number of such fragments.
-**Multiple Data Set Handling**: Processes multiple replicates simultaneously, adjusting calculations based on provided correction values for each replicate.
-**User-Driven Boundaries**: Operates within user-specified boundaries.
+- **Fragment Analysis**: Inspects the 5', 3' termini or the centers of fragments.
+- **Computational Operations**: Determination of the weighted mean location and standard deviation of these fragments.
+- **Count Analysis**: Quantifies the number of such fragments.
+- **Multiple Data Set Handling**: Processes multiple replicates simultaneously, adjusting calculations based on provided correction values for each replicate.
+- **User-Driven Boundaries**: Operates within user-specified boundaries.
 
 
 # Dependencies #
