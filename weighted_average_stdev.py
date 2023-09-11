@@ -2,6 +2,7 @@ import argparse
 import concurrent.futures
 import json
 import os
+import shutil
 import subprocess
 import sys
 import uuid
@@ -65,6 +66,11 @@ def run_bedtools(args: Tuple[str, str, str, str]) -> str:
     reads, name, regions, strandedness = args
     # create temporary path for bedtools output
     temp_data_bedtools = Path(Path.cwd(), name + ".bed")
+
+    # check if bedtools is installed and accessible
+    if shutil.which("bedtools") is None:
+        print("Error: bedtools is not installed or not in the system's PATH.")
+        sys.exit(1)
 
     # run bedtools
     if strandedness:
