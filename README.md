@@ -53,7 +53,7 @@ regions: <str> Bed file of genomic regions of chosen length with the format desc
 
 -r: <int> <int> Range relative to the TSS to analyze, for exmaple -r -100 250
 
--t: <str> Choose from '5' or '3' (for transcriptional data) or 'centers' (for ChIP-seq data). The input should be full fragments, the program will automatically calculate the 5′ or 3′ ends or centers
+-t: <str> Choose from '5' or '3' (for transcriptional data) or 'centers' (for ChIP-seq data). The input should be full fragments, the program will automatically calculate the 5′ or 3′ ends or centers. (Note: The calculated centers of reads are truncated to the nearest whole number. For example, a center value of 2.5 will be represented as 2)
 
 -s: If invoked, stranded data will be used
 
