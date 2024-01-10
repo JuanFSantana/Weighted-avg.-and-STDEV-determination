@@ -1,5 +1,6 @@
 # weighted_average_stdev.py #
 Juan F. Santana, Ph.D. (<juan-santana@uiowa.edu>), University of Iowa, Iowa City, I.A.
+As published in [Santana et al., 2024](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad1253/7513806).
 
 This software computes the weighted mean location, standard deviation, and count of the 5′ or 3′ termini or fragment centers within a specified region. It accepts multiple replicates as input, each with its associated correction values. The reads analyzed can be strand specific if specified.
 
