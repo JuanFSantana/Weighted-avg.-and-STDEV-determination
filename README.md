@@ -42,7 +42,7 @@ python3 weighted_average_stdev.py plusminus1000_from_TSS_1000genes.bed \
                   -o /home/user/dir/ \
                   -r -100 250 \
                   -t 5 \
-                  -s \
+                  -s 
 ```
 # Parameter description #
 ```
